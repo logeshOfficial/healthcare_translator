@@ -5,3 +5,7 @@ __pycache__/
 .streamlit/
 .vscode/
 .idea/
+# Environment variables
+.env
+.env.*
+
