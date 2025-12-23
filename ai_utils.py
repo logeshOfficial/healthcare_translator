@@ -11,7 +11,9 @@ client = genai.Client(
 language_map = {
     "English": "English",
     "Tamil": "Tamil (India)",
-    "Hindi": "Hindi (India)"
+    "Hindi": "Hindi (India)",
+    "Japanese": "Japanese",
+    "Chinese": "Chinese (Simplified)"
 }
 
 def translate_medical_text(text, target_language):

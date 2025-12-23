@@ -11,15 +11,18 @@ st.caption("Real-time multilingual communication for patients and providers")
 col1, col2 = st.columns(2)
 
 with col1:
-    input_lang = st.selectbox("Input Language", ["English", "Tamil", "Hindi"])
+    input_lang = st.selectbox("Input Language", ["English", "Tamil", "Hindi","Japanese", "Chinese"])
 
 with col2:
-    output_lang = st.selectbox("Output Language", ["English", "Tamil", "Hindi"])
+    output_lang = st.selectbox("Output Language", ["English", "Tamil", "Hindi","Japanese", "Chinese"])
 
 lang_code = {
     "English": "en-US",
     "Tamil": "ta-IN",
-    "Hindi": "hi-IN"
+    "Hindi": "hi-IN",
+    "Hindi": "hi-IN",
+    "Japanese": "ja-JP",
+    "Chinese": "zh-CN"
 }
 
 # ---------------- Voice Input (Browser Speech) ----------------
