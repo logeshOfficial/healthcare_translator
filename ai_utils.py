@@ -25,6 +25,9 @@ Tasks:
 2. Preserve medical meaning.
 3. Translate into {language_map[target_language]}.
 4. Keep language simple and patient-friendly.
+5. DO NOT use markdown, symbols, bullet points, headings, or emojis
+6. DO NOT add explanations or extra sentences
+7. Output must be suitable for text-to-speech playback
 
 Transcript:
 {text}
